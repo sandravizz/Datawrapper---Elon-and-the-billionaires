@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elon and the billinairs</title>
+    <style>
+      :root {
+        --text: #1a1a1a;
+        --muted: #6b6b6b;
+        --rule: #e3e3e3;
+        --max-width: 700px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+          sans-serif;
+        color: var(--text);
+        line-height: 1.6;
+        background: #fff;
+      }
+
+      article {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 64px 24px 96px;
+      }
+
+      /* ---- Header ---- */
+
+      .category-tag {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        border-bottom: 2px solid var(--text);
+        padding-bottom: 2px;
+        margin-bottom: 8px;
+      }
+
+      .reading-time {
+        display: inline-block;
+        font-size: 13px;
+        color: var(--muted);
+        background: #f2f2f2;
+        border-radius: 4px;
+        padding: 2px 8px;
+        margin-left: 8px;
+      }
+
+      h1.title {
+        font-size: 42px;
+        font-weight: 800;
+        line-height: 1.15;
+        margin: 16px 0 24px;
+      }
+
+      .byline {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 8px;
+      }
+
+      .byline .avatar {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background: #ddd;
+        flex-shrink: 0;
+        object-fit: cover;
+      }
+
+      .byline .name {
+        font-weight: 600;
+        font-size: 15px;
+      }
+
+      .byline .date {
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      /* ---- Body text ---- */
+
+      .lede {
+        font-size: 19px;
+        font-style: italic;
+        color: #333;
+        margin: 32px 0;
+      }
+
+      p {
+        font-size: 17px;
+        margin: 0 0 20px;
+      }
+
+      a {
+        color: #1a6ea8;
+        text-decoration: underline;
+      }
+
+      /* ---- Chart embed block ---- */
+
+      figure.chart-embed {
+        margin: 40px 0;
+      }
+
+      /* ---- Misc ---- */
+
+      .footnotes {
+        font-size: 13px;
+        color: var(--muted);
+        margin-top: 64px;
+        padding-top: 16px;
+        border-top: 1px solid var(--rule);
+      }
+
+      .footnotes ol {
+        padding-left: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <header>
+        <span class="category-tag">Sandraviz.com Quick Charts</span>
+        <span class="reading-time">5 min</span>
+
+        <h1 class="title">Elon and the billionaires</h1>
+
+        <div class="byline">
+          <img
+            class="avatar"
+            src="76ec6243-8da2-419e-9dc6-e934391a6793.JPG"
+            alt="Your Name"
+          />
+          <div>
+            <div class="name">Sandra Becker</div>
+            <div class="date">June 25th, 2026</div>
+          </div>
+        </div>
+      </header>
+
+      <p class="lede">
+        Hi, I’m Sandra Becker, and I love digging into data. Datawrapper’s
+        recent piece on the world’s first trillionaire sparked the idea for this
+        post.
+      </p>
+
+      <p>
+        I wanted to take an additional path let's say a side chain: How
+        exceptional is Elon Musk’s rise? Is it genuinely anomalous, or does he
+        simply occupy the extreme end of a pattern shared by the world’s
+        wealthiest people?
+      </p>
+
+      <p>
+        Musk’s enormous fortune is nothing new. What is remarkable is the scale
+        and shape of this latest jump. Through the SpaceX IPO, his estimated net
+        worth rose from roughly $342 billion—already an almost incomprehensible
+        sum—to $1.1 trillion.
+      </p>
+
+      <p>
+        That is an increase of about 222%: more than a tripling of his wealth in
+        a single event. Fortunes usually grow incrementally, even at the very
+        top. This was something different—less a continuation of an existing
+        trajectory than a sudden, exponential leap. So the question is not
+        simply how rich Musk has become. It is whether the mechanism and
+        magnitude of his rise place him outside the historical pattern
+        altogether.
+      </p>
+
+      <figure class="chart-embed">
+        <iframe
+          title="The IPO that changed everything"
+          aria-label="Line chart"
+          id="datawrapper-chart-xPF0c"
+          src="https://datawrapper.dwcdn.net/xPF0c/10/"
+          scrolling="no"
+          frameborder="0"
+          style="width: 0; min-width: 100% !important; border: none"
+          height="623"
+          data-external="1"
+        ></iframe>
+        <script type="text/javascript">
+          (function () {
+            function e() {
+              window.addEventListener(`message`, function (e) {
+                if (e.data[`datawrapper-height`] !== void 0) {
+                  var t = document.querySelectorAll(`iframe`);
+                  for (var n in e.data[`datawrapper-height`])
+                    for (var r = 0, i; (i = t[r]); r++)
+                      if (i.contentWindow === e.source) {
+                        var a = e.data[`datawrapper-height`][n] + `px`;
+                        i.style.height = a;
+                      }
+                }
+              });
+            }
+            e();
+          })();
+        </script>
+      </figure>
+
+      <p>
+        Paragraph continuing the analysis after the chart. Reference what's
+        visible in the chart directly -- readers just looked at it, so point at
+        specific moments or numbers.
+      </p>
+
+      <figure class="chart-embed">
+        <iframe
+          title="The top 10 billionaires in 2026"
+          aria-label="Small multiple line chart"
+          id="datawrapper-chart-C8k4I"
+          src="https://datawrapper.dwcdn.net/C8k4I/10/"
+          scrolling="no"
+          frameborder="0"
+          style="width: 0; min-width: 100% !important; border: none"
+          height="546"
+          data-external="1"
+        ></iframe>
+        <script type="text/javascript">
+          (function () {
+            function e() {
+              window.addEventListener(`message`, function (e) {
+                if (e.data[`datawrapper-height`] !== void 0) {
+                  var t = document.querySelectorAll(`iframe`);
+                  for (var n in e.data[`datawrapper-height`])
+                    for (var r = 0, i; (i = t[r]); r++)
+                      if (i.contentWindow === e.source) {
+                        var a = e.data[`datawrapper-height`][n] + `px`;
+                        i.style.height = a;
+                      }
+                }
+              });
+            }
+            e();
+          })();
+        </script>
+      </figure>
+
+      <p>
+        Closing paragraph -- the takeaway, or a question that points the reader
+        to next week's post.
+      </p>
+
+      <div class="footnotes">
+        <ol>
+          <li id="fn1">
+            Source note or methodology aside.
+            <a href="#">Forbes Real-Time Billionaires</a>.
+          </li>
+        </ol>
+      </div>
+    </article>
+  </body>
+</html>
