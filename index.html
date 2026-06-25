@@ -41,8 +41,6 @@
         color: var(--muted);
         text-transform: uppercase;
         letter-spacing: 0.03em;
-        border-bottom: 2px solid var(--text);
-        padding-bottom: 2px;
         margin-bottom: 8px;
       }
 
@@ -104,7 +102,7 @@
       }
 
       a {
-        color: #1a6ea8;
+        color: inherit;
         text-decoration: underline;
       }
 
@@ -132,7 +130,7 @@
   <body>
     <article>
       <header>
-        <span class="category-tag">Sandraviz.com Quick Charts</span>
+        <span class="category-tag"><a href="https://www.sandraviz.com/">Sandraviz.com</a> Quick Charts</span>
         <span class="reading-time">5 min</span>
 
         <h1 class="title">Yesterday Musk was trillionaire today he is not</h1>
@@ -151,13 +149,15 @@
       </header>
 
       <p class="lede">
-        Hi, I’m Sandra Becker, and I love digging into data. Datawrapper’s
-        recent piece on the world’s first trillionaire sparked the idea for this
+        Hi, I’m Sandra Becker, and I love digging into data. <a
+          href="https://www.datawrapper.de/blog/elon-musk-trillionaire-wealth"
+          >Datawrapper’s recent piece</a
+        > on the world’s first trillionaire sparked the idea for this
         post.
       </p>
 
       <p>
-        One of the most interesting ideas in the Datapaper blog post was the
+        One of the most interesting ideas in the DataWrapper's blog post was the
         distinction between paper wealth and actual cash wealth. Most
         billionaire fortunes are tied to the market value of the shares they own
         rather than cash, meaning their wealth exists largely on paper and can
@@ -168,22 +168,22 @@
         This volatility is striking. When Datapaper published its chart on 18
         June, Elon Musk's estimated net worth exceeded $1.1 trillion. Just a few
         days later, falling share prices reduced Forbes' real-time estimate to
-        around $952 billion—a drop of about $148 billion, or 13.5%.
+        around $952 billion, a drop of about $148 billion, or 13.5%.
       </p>
 
-      <figure class="chart-embed">
+      <figure class="chart-embed" style="margin: 4px 0">
         <img
           src="MuskNetworth.jpg"
           alt="Elon Musk"
-          style="width: 100%; display: block"
+          style="width: 60%; display: block"
         />
       </figure>
 
       <p>
         The chart below shows Musk's estimated net worth since 2012. While the
         most obvious feature is the extraordinary increase over the past year,
-        the recent swing also highlights how paper wealth can fluctuate
-        dramatically within just a few days.
+        mainly driven by the SpaceX IPO, the recent swing also highlights how
+        paper wealth can fluctuate dramatically within just a few days.
       </p>
 
       <figure class="chart-embed">
@@ -313,14 +313,6 @@
         tell.
       </p>
 
-      <div class="footnotes">
-        <ol>
-          <li id="fn1">
-            Source note or methodology aside.
-            <a href="#">Forbes Real-Time Billionaires</a>.
-          </li>
-        </ol>
-      </div>
     </article>
   </body>
 </html>
