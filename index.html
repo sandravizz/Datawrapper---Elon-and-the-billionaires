@@ -61,6 +61,16 @@
         margin: 16px 0 24px;
       }
 
+      @media (max-width: 480px) {
+        h1.title {
+          font-size: 30px;
+        }
+
+        .musk-chart {
+          width: 100% !important;
+        }
+      }
+
       .byline {
         display: flex;
         align-items: center;
@@ -173,9 +183,10 @@
 
       <figure class="chart-embed" style="margin: 4px 0">
         <img
+          class="musk-chart"
           src="MuskNetworth.jpg"
           alt="Elon Musk"
-          style="width: 60%; display: block"
+          style="width: 80%; display: block"
         />
       </figure>
 
