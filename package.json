@@ -1,0 +1,20 @@
+{
+  "name": "datawrapper-elon-and-the-billionaires",
+  "version": "1.0.0",
+  "description": "A data visualization project analyzing Elon Musk's wealth compared to other billionaires",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "datawrapper",
+    "visualization",
+    "billionaires",
+    "elon-musk"
+  ],
+  "author": "Sandra Becker",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
